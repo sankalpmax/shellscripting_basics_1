@@ -15,3 +15,6 @@ echo "Lower case is ${myVar,,}"
 # replace a string
 addvar=${myVar/devops/python}
 echo "my new var is $addvar"
+
+#Slicing  the senetence in string
+echo "After slicing ${myVar:5:7}"	
